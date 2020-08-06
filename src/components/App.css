@@ -1,0 +1,396 @@
+
+h2{
+    font-size: 2vw;
+    font-weight: 600;
+
+}
+
+.app{
+    background-color: #d9ebf542;
+}
+
+/* HEADER */
+.header{
+    height: 430px;
+    background: url('../components/Header/images/home.png') no-repeat;
+    margin-bottom: 5vw;
+}
+.header_img{
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+}
+.header-menu__right{
+    float: right;
+    overflow: hidden;
+    outline: none;
+    border: 0;
+    margin-right: 40px;
+    margin-top: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.header-menu__right select{
+    background: transparent;
+    height: 34px;
+    border: 0;
+    color: aliceblue;
+    cursor: pointer;
+}
+.header-menu__right select option{
+    color: black;
+}
+.header-menu__faq{
+    color: aliceblue;
+    margin-top: 30px;
+}
+.header-menu_btn{
+    margin-top: 25px;
+    width: 70px;
+    height: 28px;
+    background-color: darkmagenta;
+    color: aliceblue;
+    border-radius: 8px;
+
+}
+.header__size1{
+    font-size: 4.5vw;
+    font-weight: 800;
+    line-height: 4vw;
+    color: aliceblue;
+    padding-top: 100px;
+    width: 55%;
+    text-align: center;
+    margin-left: 20%;
+}
+.header__size2{
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: aliceblue;
+    padding-top: 20px;
+    width: 55%;
+    text-align: center;
+    margin-left: 20%;
+}
+.header-search div{
+    float: left;
+    height: 40px;
+    background-color: gray;
+    color: aliceblue;
+    border-radius: 8px;
+    margin-left: 40px;
+    margin-top: 50px;
+    padding-top: 6px;
+}
+.header-search select{
+    padding-left: 5%;
+}
+.header-search__transparent{
+    background: transparent;
+    outline: none;
+    border: none;
+}
+.header-search select option{
+    color: black;
+}
+.header-search_region{
+    width: 25%;
+}
+.header-search_region select{
+    width: 70%;
+    cursor: pointer;
+}
+.header-search_date{
+    width: 31%;
+} 
+.header-search label{
+    padding-left: 4%;
+}
+.header-search_date input{
+    width: 33%;
+    padding-left: 4%;
+}
+.header-search_number{
+    width: 14%;
+    cursor: pointer;
+}
+.header-search_btn{
+    height: 40px;
+    background-color: darkmagenta;
+    width: 120px;
+    outline: none;
+    border: none;
+    color: aliceblue;
+    border-radius: 8px;
+    margin-left: 40px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+/* Отступы по вертикали*/
+.searchOld,
+.viewOld,
+.recommendation,
+.promotion{
+    margin-bottom: 4vw;
+}
+
+/*VIE_OLD */
+/*SEARCH_OLD */
+/*RECOMENDATION */
+.recommendation_header,
+.searchOld,
+.viewOld{
+    padding-left: 2%;
+}
+
+/*RECOMENDATION */
+.recommendation-hotel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+            /*HOTEL - визитка */
+.hotelInfo{
+    width: 31%;
+    margin-bottom: 2vw;
+    background-color: white;
+    border-radius: 5%;
+}
+.hotelInfo_img{
+    width: 100%;
+    border-radius: 5% 5% 0 0;
+}
+.hotelInfo_name{
+    position: absolute;
+    top: 15vw;
+    left: 5%;
+    color: aliceblue;
+    font-weight: 600;
+}
+.hotelInfo_region{
+    position: absolute;
+    top: 17vw;
+    left: 5%;
+    color: aliceblue;
+}
+.hotelInfo_btn{
+    width: 20%;
+    height: 2vw;
+    position: absolute;
+    top: 2vw;
+    left: 6%;
+    background-color: darkmagenta;
+    border-radius: 8px;
+    color: aliceblue;
+}
+.hotelInfo_market{
+    position: relative;
+}
+.hotelInfo_info,
+.hotelInfo_date{
+    padding-left: 5%;
+    padding-top: 1vw;
+}
+.hotelInfo_info div,
+.hotelInfo_period{
+    padding-right: 13%;
+    font-size: 1vw;
+    color: #9ba6a9;
+    display: inline;
+}
+.hotelInfo_date{
+    padding-bottom: 2vw;
+}
+.hotelInfo_price{
+    font-size: 1.3vw;
+    font-weight: 800;
+    color: darkmagenta;
+    padding-left: 22%;
+    display: inline;
+}
+
+/*PROMOTION */
+.promotion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 10%;
+    text-align: center;
+}
+.promotion p,
+.promotion h2{
+    width: 100%;
+}
+.promotion_column{
+    width: 31%;
+    padding: 0 5%;
+}
+.promotion_column h1{
+    font-size: 4vw;
+    font-weight: 800;
+    color: darkmagenta;
+    margin-bottom: 1vw;
+}
+.promotion h2,
+.promotion_column h3{
+    margin-bottom: 2vw;
+}
+.promotion-info{
+    width: 24%;
+}
+
+/* REVIEWS*/
+.reviews{
+    padding: 0 10%;
+    margin-bottom: 8vw;
+}
+.reviews p,
+.reviews h2{
+    text-align: center;
+    margin-bottom: 1vw;
+}
+.reviews_txt{
+    width: 88%;
+    background: white;
+    border-radius: 4%;
+    padding: 0 8%;
+    margin: 0 6%;
+    margin-top: 2vw;
+}
+.reviews_txt h3{
+    text-align: center;
+}
+.reviews_img{
+    width: 18%;
+    margin-left: 41%;
+    position: relative;
+    top: -17px;
+}
+                /*для всех слайдеров убрать боковые кнопки истилизация dots */
+.slick-next:before,
+.slick-prev:before{
+    display: none;
+}
+.slick-next{
+    right: 0;
+}
+.slick-prev{
+    left: 0;
+}
+.slick-dots li button:before,
+.slick-dots li.slick-active button:before{
+    color: darkmagenta;
+    font-size: 9px;
+}
+
+/*DESTINATION */
+.destination{
+    margin-bottom: 6vw;
+}
+.destination_cart{
+    width: 90%;
+    border-radius: 4%;
+    padding: 0 8%;
+    margin: 0 5%;
+    margin-top: 2vw;
+}
+.destination_img{
+    width: 100%;
+    border-radius: 4%;
+}
+.destination_cart h3{
+    position: relative;
+    color: white;
+    top: -4vw;
+    left: 10%;
+    font-size: 1.7vw;
+}
+.destination_btn{
+    width: 15%;
+    height: 3vw;
+    background-color: darkmagenta;
+    color: aliceblue;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 42%;
+    margin-top: 6vw;
+}
+
+/*COLLECTION */ 
+.collections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 10%;
+    text-align: center;
+    margin-bottom: 2vw;
+}
+.collections p,
+.collections h2{
+    width: 100%;
+}
+.collections_column{
+    width: 30%;
+    margin-top: 3vw;
+}
+.collections_column img{
+    width: 100%;
+    margin-top: -1vw;
+    border-radius: 6%;
+    cursor: pointer; 
+}
+.collections_column p{
+    position: relative;
+    top: -5vw;
+    font-size: 1.6vw;
+    color: aliceblue;
+    left: -24%;
+}
+.footer{
+    height: 25vw;
+    color: aliceblue;
+    background-color: #443c37;
+    border-radius: 25px 25px 0 0;
+    padding: 4vw 4% 0 4%;
+    position: relative;
+}
+.footer_img {
+    float: left;
+}
+.footer_btn{
+    height: 2.6vw;
+    background-color: darkmagenta;
+    width: 19%;
+    outline: none;
+    border: none;
+    font-size: 1.6vw;
+    color: aliceblue;
+    border-radius: 8px;
+    position: absolute;
+    top: 10vw;
+    left: 4%;
+    cursor: pointer;
+}
+.footer_column{
+    float: right;
+    margin-right: 6%;
+}
+.footer_column div{
+    margin-bottom: 1.1vw;
+    cursor: pointer;
+    padding: 0.3vw 0;
+}
+.footer_social{
+    position: absolute;
+    top: 20vw;
+    left: 4%;
+    width: 80%;
+}
+.footer_social i{
+    font-size: 2vw;
+    padding: 5px;
+    margin-right: 2%;
+    color: aliceblue;
+    cursor: pointer;
+}
