@@ -376,10 +376,11 @@ h2{
     float: right;
     margin-right: 6%;
 }
-.footer_column div{
+.footer_column a{
+    display: block;
     margin-bottom: 1.1vw;
-    cursor: pointer;
     padding: 0.3vw 0;
+    color: aliceblue;
 }
 .footer_social{
     position: absolute;

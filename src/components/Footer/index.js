@@ -11,22 +11,24 @@ function Footer() {
         <i className="fa fa-vk" aria-hidden="true"></i>
         <i className="fa fa-instagram" aria-hidden="true"></i>
       </div>
+      
+
       <div className="footer_column">
-        <div>О компании</div>
-        <div>FAQ</div>
+        <a href="/">О компании</a>
+        <a href="/">FAQ</a>
       </div>
       <div className="footer_column">
-        <div>Для владельцев</div>
-        <div>FAQ</div>
-        <div>Отзывы</div>
+        <a href="/">Для владельцев</a>
+        <a href="/">FAQ</a>
+        <a href="/">Отзывы</a>
       </div>
       <div className="footer_column">
-        <div>О компании</div>
-        <div>FAQ</div>
-        <div>Отзывы</div>
-        <div>Путеводитель</div>
-        <div>Контакты</div>
-        <div>Политика конфидециальности</div>
+        <a href="/">О компании</a>
+        <a href="/">FAQ</a>
+        <a href="/">Отзывы</a>
+        <a href="/">Путеводитель</a>
+        <a href="/">Контакты</a>
+        <a href="/">Политика конфидециальности</a>
       </div >
         
         
